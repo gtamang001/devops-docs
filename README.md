@@ -1,4 +1,4 @@
-# DevOps Diary
+# DevOps LandScape
 ## 1. Migration from old SCM to new platforms
 - migration from svn to github
 - migration from gitlab to github
@@ -11,28 +11,31 @@
 - Go, Python, JavaScript
 - Api Calls
 - Github Runners
+- Versioning
 ## 3. Continuous Delivery
 ### Non Cluster
-- Linux Server environment (Cloud, Non Cloud, Cluster)
+- Linux Server environment (Cloud, Non Cloud)
 - Windows Server environment(CLoud,Non Cloud)
 - Ansible
 - Bash Scriptiong
-- Linux Processes
-- windows processes
+- Linux Processes (service start stop)
+- windows processes(windows service start stop)
 ### Cluster
 - Argocd
 - kustomize
 - docker
 - Rancher
+- helm
 
 ## 4. Infrastructure as Code
 - Terraform
 - cloud init scripts
 - Linux Volumes and volume mounts
-- Software downloads and services
+- Application management linux(Packages, rpms)
+- Linux process management(services,jobs)
 
 ## 5. Monitoring Aspects 
-### Loggings
+### Logging
 - opensearch
 ### Monitoring
 - grafana
